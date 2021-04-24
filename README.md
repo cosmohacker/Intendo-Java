@@ -69,9 +69,10 @@ IntentService.intentAddressWithBundle(Context mContext, Class forwardClass, Stri
 IntentService.intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content);
 
 <h3>Transmission Types</h3>
+<hr>
     "left-right"
     <br>
-    right-left"
+    "right-left"
     <br>
     "bottom-up"
     <br>
