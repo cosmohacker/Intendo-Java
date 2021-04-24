@@ -58,9 +58,7 @@ Add it in your project.clj at the end of repositories:
 
 <h1>USAGE</h1>
 
-import com.cosmohacker.intentservice.IntentService;
-
-    <h2>Transmission Types</h2>
+ <h2>Transmission Types</h2>
     "left-right"
     right-left"
     "bottom-up"
@@ -69,6 +67,10 @@ import com.cosmohacker.intentservice.IntentService;
     "rotateout-rotatein"
     "fadeout-fadein"
     "rotatein-rotateout"
+
+import com.cosmohacker.intentservice.IntentService;
+
+   
     
 IntentService.intentAddress(Context mContext, Class forwardClass, String transmissionType);
 
