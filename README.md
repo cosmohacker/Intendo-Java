@@ -5,7 +5,7 @@ Add it in your root build.gradle at the end of repositories:
 
 <h1>GRADLE</h1>
 
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -15,7 +15,7 @@ allprojects {
   
   Step 2. Add the dependency
   
-  dependencies {
+  	dependencies {
 	        implementation 'com.github.cosmohacker:Android-Studio-Java-Custom-Intent-Service:1.1.1'
 	}
 
@@ -40,7 +40,7 @@ allprojects {
 
 Add it in your build.sbt at the end of resolvers:
 
-  resolvers += "jitpack" at "https://jitpack.io"
+ 	 resolvers += "jitpack" at "https://jitpack.io"
   
   Step 2. Add the dependency
   
@@ -50,7 +50,7 @@ Add it in your build.sbt at the end of resolvers:
 
 Add it in your project.clj at the end of repositories:
 
-  repositories [["jitpack" "https://jitpack.io"]]
+  	repositories [["jitpack" "https://jitpack.io"]]
   
   Step 2. Add the dependency
 	
@@ -58,15 +58,15 @@ Add it in your project.clj at the end of repositories:
 
 <h1>USAGE</h1>
 
-import com.cosmohacker.intentservice.IntentService;
-    
-IntentService.intentAddress(Context mContext, Class forwardClass, String transmissionType);
+	import com.cosmohacker.intentservice.IntentService;
+		    
+	IntentService.intentAddress(Context mContext, Class forwardClass, String transmissionType);
 
-IntentService.intentAddressSimple(Context mContext, Class forwardClass);
+	IntentService.intentAddressSimple(Context mContext, Class forwardClass);
 
-IntentService.intentAddressWithBundle(Context mContext, Class forwardClass, String transmissionType, Bundle bundle, String key, String content) ;
+	IntentService.intentAddressWithBundle(Context mContext, Class forwardClass, String transmissionType, Bundle bundle, String key, String content) ;
 
-IntentService.intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content);
+	IntentService.intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content);
 
 <h3>Transmission Types</h3>
 <hr>
