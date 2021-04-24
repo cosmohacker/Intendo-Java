@@ -3,7 +3,7 @@ This is my own custom intent service library with animation and bundle
 
 Add it in your root build.gradle at the end of repositories:
 
-for gradle //////////////////////////////////////
+<h1>GRADLE</h1>
 
 allprojects {
 		repositories {
@@ -19,9 +19,7 @@ allprojects {
 	        implementation 'com.github.cosmohacker:Android-Studio-Java-Custom-Intent-Service:1.1.1'
 	}
 
-end of for gradle //////////////////////////////////////
-
-for maven //////////////////////////////////////
+<h1>MAVEN</h1>
 
 <repositories>
 		<repository>
@@ -38,9 +36,7 @@ for maven //////////////////////////////////////
 	    <version>1.1.1</version>
 	</dependency>
 
-end of for maven //////////////////////////////////////
-
-for sbt //////////////////////////////////////
+<h1>SBT</h1>
 
 Add it in your build.sbt at the end of resolvers:
 
@@ -50,9 +46,7 @@ Add it in your build.sbt at the end of resolvers:
   
   	libraryDependencies += "com.github.cosmohacker" % "Android-Studio-Java-Custom-Intent-Service" % "1.1.1"	
 
-end of for sbt //////////////////////////////////////
-
-for leiningen //////////////////////////////////////
+<h1>LEININGEN</h1>
 
 Add it in your project.clj at the end of repositories:
 
@@ -62,10 +56,8 @@ Add it in your project.clj at the end of repositories:
 	
 	:dependencies [[com.github.cosmohacker/Android-Studio-Java-Custom-Intent-Service "1.1.1"]]	
 
-end of for leiningen //////////////////////////////////////
+<h1>USAGE</h1>
 
-
-#USAGE 
 import com.cosmohacker.intentservice.IntentService;
 
 /*
