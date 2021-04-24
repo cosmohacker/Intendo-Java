@@ -21,7 +21,7 @@ allprojects {
 
 <h1>MAVEN</h1>
 
-<repositories>
+	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
