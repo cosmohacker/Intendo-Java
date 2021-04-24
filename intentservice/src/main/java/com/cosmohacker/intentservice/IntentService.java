@@ -9,18 +9,18 @@ import com.cosmohacker.intentservice.R;
 
 public class IntentService {
 
-    public void intentAddress(Context mContext, Class forwardClass, String transmissionType) {
+    public static void intentAddress(Context mContext, Class forwardClass, String transmissionType) {
         Intent intent = new Intent(mContext, forwardClass);
         mContext.startActivity(intent);
         intentTransition(mContext, transmissionType);
     }
 
-    public void intentAddressSimple(Context mContext, Class forwardClass) {
+    public static void intentAddressSimple(Context mContext, Class forwardClass) {
         Intent intent = new Intent(mContext, forwardClass);
         mContext.startActivity(intent);
     }
 
-    public void intentAddressWithBundle(Context mContext, Class forwardClass, String transmissionType, Bundle bundle, String key, String content) {
+    public static void intentAddressWithBundle(Context mContext, Class forwardClass, String transmissionType, Bundle bundle, String key, String content) {
         Intent intent = new Intent(mContext, forwardClass);
         bundle.putString(key, content);
         intent.putExtras(bundle);
@@ -28,7 +28,7 @@ public class IntentService {
         intentTransition(mContext, transmissionType);
     }
 
-    public void intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content) {
+    public static void intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content) {
         Intent intent = new Intent(mContext, forwardClass);
         bundle.putString(key, content);
         intent.putExtras(bundle);
