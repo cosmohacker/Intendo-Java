@@ -1,4 +1,4 @@
-# Android-Studio-Java-Custom-Intent-Service
+# Android Studio Java Custom Intent Service
 This is my own custom intent service library with animation and bundle
 
 Add it in your root build.gradle at the end of repositories:
@@ -63,3 +63,28 @@ Add it in your project.clj at the end of repositories:
 	:dependencies [[com.github.cosmohacker/Android-Studio-Java-Custom-Intent-Service "1.1.1"]]	
 
 end of for leiningen //////////////////////////////////////
+
+
+#USAGE 
+import com.cosmohacker.intentservice.IntentService;
+
+/*
+    Transmission Types{
+    "left-right"
+    right-left"
+    "bottom-up"
+    "up-bottom"
+    "fadein-fadeout"
+    "rotateout-rotatein"
+    "fadeout-fadein"
+    "rotatein-rotateout"
+    }
+*/
+
+IntentService.intentAddress(Context mContext, Class forwardClass, String transmissionType);
+
+IntentService.intentAddressSimple(Context mContext, Class forwardClass);
+
+IntentService.intentAddressWithBundle(Context mContext, Class forwardClass, String transmissionType, Bundle bundle, String key, String content) ;
+
+IntentService.intentAddressSimpleWithBundle(Context mContext, Class forwardClass, Bundle bundle, String key, String content);
