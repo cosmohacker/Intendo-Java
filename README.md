@@ -16,7 +16,7 @@ Add it in your root build.gradle at the end of repositories:
   Step 2. Add the dependency
   
   	dependencies {
-	        implementation 'com.github.cosmohacker:Android-Studio-Java-Custom-Intent-Service:1.1.1'
+	        implementation 'com.github.cosmohacker:Intendo-Java:1.1.1'
 	}
 
 <h1>MAVEN</h1>
@@ -32,7 +32,7 @@ Add it in your root build.gradle at the end of repositories:
   
   	<dependency>
 	    <groupId>com.github.cosmohacker</groupId>
-	    <artifactId>Android-Studio-Java-Custom-Intent-Service</artifactId>
+	    <artifactId>Intendo-Java</artifactId>
 	    <version>1.1.1</version>
 	</dependency>
 
@@ -44,7 +44,7 @@ Add it in your build.sbt at the end of resolvers:
   
   Step 2. Add the dependency
   
-  	libraryDependencies += "com.github.cosmohacker" % "Android-Studio-Java-Custom-Intent-Service" % "1.1.1"	
+  	libraryDependencies += "com.github.cosmohacker" % "Intendo-Java" % "1.1.1"	
 
 <h1>LEININGEN</h1>
 
@@ -54,7 +54,7 @@ Add it in your project.clj at the end of repositories:
   
   Step 2. Add the dependency
 	
-	:dependencies [[com.github.cosmohacker/Android-Studio-Java-Custom-Intent-Service "1.1.1"]]	
+	:dependencies [[com.github.cosmohacker/Intendo-Java "1.1.1"]]	
 
 <h1>USAGE</h1>
 
