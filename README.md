@@ -80,8 +80,8 @@ Add it in your project.clj at the end of repositories:
     <br>
     "fadein-fadeout"
     <br>
-    "rotateout-rotatein"
-    <br>
     "fadeout-fadein"
+    <br>
+    "rotateout-rotatein"
     <br>
     "rotatein-rotateout"
