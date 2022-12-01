@@ -1,4 +1,4 @@
-# Android Studio Java Custom Intent Service
+# Android : Java Custom Intent Service
 This is my own custom intent service library with animation and bundle
 
 Add it in your root build.gradle at the end of repositories:
